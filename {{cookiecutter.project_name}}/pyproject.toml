@@ -50,5 +50,3 @@ safety = "^1.10"
 pytest = "^7.1"
 pytest-cov = "^3.0"
 pytest-randomly = "^3.12"
-
-tomlkit = "^0.7"
