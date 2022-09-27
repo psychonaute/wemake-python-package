@@ -3,6 +3,9 @@
   "search.exclude": {
     "**/anyfolderlikethis/**": true,
   },
+  "files.watcherExclude": {
+    "**/anyfolderlikethis/**": true
+},
   "workbench.colorCustomizations": {
       "activityBar.inactiveForeground": "#e7e7e799",
       "activityBarBadge.background": "#1f6fd0",
