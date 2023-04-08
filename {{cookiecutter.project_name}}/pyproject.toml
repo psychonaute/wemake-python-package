@@ -23,7 +23,6 @@ classifiers = [
 python = "^3.9"
 
 [tool.poetry.group.test.dependencies]
-
 nitpick = "^0.32"
 
 safety = "^2.3"
@@ -33,5 +32,12 @@ pytest-cov = "^4.0"
 pytest-randomly = "^3.12"
 
 [build-system]
-requires = ["poetry-core>=1.4.2"]
+requires = ["poetry-core>=1.1.13"]
 build-backend = "poetry.core.masonry.api"
+
+# add third party modules twhom stud file can't be found
+# cf: Python - typing.xmind
+[[tool.mypy.overrides]]
+module = [
+]
+ignore_missing_imports = true
