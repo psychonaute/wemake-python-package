@@ -1,6 +1,6 @@
 {
   "project_name": "my-awesome-project",
-  "organization": "<github-username>",
+  "organization": "psychonaute",
   "project_description": "This is how python package should look like!",
 
   "license": "MIT",
