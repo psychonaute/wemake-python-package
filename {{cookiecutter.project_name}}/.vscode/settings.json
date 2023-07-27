@@ -18,5 +18,4 @@
       "activityBar.activeBorder": "#FACF3F",
       "activityBar.foreground": "#e7e7e7",
   },
-  "python.linting.flake8Path": "flake8",
 }

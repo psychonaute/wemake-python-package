@@ -6,7 +6,7 @@
 	"recommendations": [
         "almenon.arepl",
         "batisteo.vscode-django",
-        "bungcip.better-toml",
+        "tamasfe.even-better-toml",
         "cstrap.python-snippets",
         "donjayamanne.python-environment-manager",
         "donjayamanne.python-extension-pack",
