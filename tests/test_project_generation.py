@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> master
 """
 Does some basic tests on the generated project.
 
