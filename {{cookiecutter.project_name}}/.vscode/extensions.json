@@ -1,9 +1,8 @@
 {
-	// See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
-	// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
-
-	// List of extensions which should be recommended for users of this workspace.
-	"recommendations": [
+    // See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+    // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+    // List of extensions which should be recommended for users of this workspace.
+    "recommendations": [
         "almenon.arepl",
         "batisteo.vscode-django",
         "bungcip.better-toml",
@@ -11,12 +10,15 @@
         "donjayamanne.python-environment-manager",
         "donjayamanne.python-extension-pack",
         "guyskk.language-cython",
+        "lalten.vscode-unify",
         "leonhard-s.python-sphinx-highlight",
         "magicstack.magicpython",
         "matangover.mypy",
         "mgesbert.python-path",
-        "ms-python.flake8",
+        "ms-python.autopep8",
+        "ms-python.flake8", //bundle setting  not working cf:https://github.com/tylerwince/flake8-bandit/issues/41
         "ms-python.isort",
+        "ms-python.mypy-type-checker", //not working on WSL
         "ms-python.python",
         "ms-python.vscode-pylance",
         "ms-python.vscode-pylance",
@@ -24,9 +26,8 @@
         "ms-toolsai.jupyter-renderers",
         "ms-toolsai.jupyter",
         "njpwerner.autodocstring",
+        "trungngo.autoflake",
     ],
-	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
-	"unwantedRecommendations": [
-
-	]
+    // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+    "unwantedRecommendations": []
 }
