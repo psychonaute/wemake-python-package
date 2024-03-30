@@ -1,11 +1,11 @@
 {
   "project_name": "my-awesome-project",
-  "organization": "psychonaute",
+  "organization": "codekoriko",
   "project_description": "This is how python package should look like!",
-
   "license": "MIT",
-
-  "_extensions": ["jinja2_git.GitExtension"],
+  "_extensions": [
+    "jinja2_git.GitExtension"
+  ],
   "_copy_without_render": [
     ".venv"
   ]
