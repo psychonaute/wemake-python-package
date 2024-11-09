@@ -17,5 +17,8 @@
       "activityBar.activeBackground": "#306897",
       "activityBar.activeBorder": "#FACF3F",
       "activityBar.foreground": "#e7e7e7",
+      // Used to quickly identify misc workspace reference workspaces such as
+      // boilerplate, old branch ect...
+      // "activityBar.background": "#FFFFFF",
   },
 }
